@@ -16,4 +16,4 @@ CMD ./manage.py syncdb --noinput && ./manage.py runserver 0.0.0.0:8003
 # ./manage.py schemamigration notes --initial
 # sudo docker run -d -e POSTGRES_USER=satish -e POSTGRES_PASSWORD=satish -p 5432:5432 -v /data:/var/lib/postgresql/data --name postgresql postgres
 
-#dockerhub push with
+#dockerhub push with jenkins
